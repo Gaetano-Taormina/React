@@ -1,17 +1,4 @@
-import { useState } from 'react';
-
-function StyleToggleButton({ label, classA, classB }) {
-  const [isClassA, setIsClassA] = useState(true);
-
-  return (
-    <button 
-      className={`btn btn-${isClassA ? classA : classB} w-100 py-3 fw-bold shadow-sm transition`} 
-      onClick={() => setIsClassA(!isClassA)}
-    >
-      {label} ({isClassA ? classA : classB})
-    </button>
-  );
-}
+import StyleToggleButton from './components/StyleToggleButton';
 
 export default function App() {
   return (
