@@ -57,12 +57,14 @@ In exercises **5**, **6**, and **9**, `event.target.value` is implemented to ext
 Per avviare qualsiasi esercizio:
 
 1. Entra nella cartella desiderata (es. `cd 05-variant-pricing`)
-2. Installa le dipendenze con `npm install`
-3. Avvia il server di sviluppo con `npm run dev`
+2. Installa le dipendenze con `npm install` (oppure `pnpm install`)
+3. Avvia il server di sviluppo con `npm run dev` (oppure `pnpm run dev`)
+4. Verifica il linter con `pnpm oxlint`
 
 **English:**
 To run any exercise locally:
 
 1. Navigate to the desired folder (e.g., `cd 05-variant-pricing`)
-2. Install dependencies with `npm install`
-3. Start the development server with `npm run dev`
+2. Install dependencies with `npm install` (or `pnpm install`)
+3. Start the development server with `npm run dev` (or `pnpm run dev`)
+4. Run linter checks with `pnpm oxlint`
