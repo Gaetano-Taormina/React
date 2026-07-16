@@ -16,6 +16,7 @@ Comprehensive collection of **React & Vite** exercises and projects developed du
 | **react-props** | Gestione dello Stato (`useState`), Props (`initialValue`, `step`), eventi form (`event.target.value`) e interattività. Include esercizi da `01-counter-reset` a `10-interactive-todo-list`. | 10 Esercizi | [Apri react-props](./react-props) |
 | **react-binding** | Two-way data binding in tempo reale, gestione eventi dinamici (`onChange`, `onClick`), filtri istantanei, contatori e selettori interattivi. Include esercizi da `01-realtime-text-echo` a `15-textarea-length-warnings`. | 15 Esercizi | [Apri react-binding](./react-binding) |
 | **react-form** | Gestione completa dei moduli interattivi (Newsletter, Codici Promo, Recensioni, Preventivi, Prenotazioni, Liste Invitati, Rubrica). Include esercizi da `01-newsletter-subscription` a `07-phone-book`. | 7 Esercizi | [Apri react-form](./react-form) |
+| **react-use-effect** | Gestione degli effetti collaterali (`useEffect`), calcoli reattivi in tempo reale, preventivi e validazione form (Bolletta, Pagamento, Spedizione, Finanziamento, Viaggio, Carburante). Include esercizi da `01-electric-bill-estimator` a `06-fuel-consumption-estimator`. | 6 Esercizi | [Apri react-use-effect](./react-use-effect) |
 
 ---
 
