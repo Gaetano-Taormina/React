@@ -37,6 +37,7 @@ organize the results of a tournament by showing for each participant their name,
             * COLONNA Punteggio -> `giocatore.punteggioTotale`
             * COLONNA Partite Giocate -> `giocatore.partiteGiocate`
             * COLONNA Vittorie/Sconfitte -> `giocatore.vittorie`V / `giocatore.sconfitte`S
+  * NOTA: Il componente è strutturato e salvato all'interno della cartella src/components/
 * FINE COMPONENTE TournamentResults
 ```
 
@@ -56,5 +57,6 @@ organize the results of a tournament by showing for each participant their name,
             * COLUMN Score -> `player.totalScore`
             * COLUMN Games Played -> `player.gamesPlayed`
             * COLUMN Wins/Losses -> `player.wins`W / `player.losses`L
+  * NOTE: The component is structured and saved inside the src/components/ folder
 * END COMPONENT TournamentResults
 ```
