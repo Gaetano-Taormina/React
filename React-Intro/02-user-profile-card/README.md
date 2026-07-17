@@ -33,6 +33,7 @@ display a person's personal data starting from an object containing their main i
         * ELEMENTO lista: Età -> `persona.eta` anni
         * ELEMENTO lista: Città -> `persona.citta`
         * ELEMENTO lista: Professione -> `persona.professione`
+  * NOTA: Il componente è strutturato e salvato all'interno della cartella src/components/
 * FINE COMPONENTE App
 ```
 
@@ -48,5 +49,6 @@ display a person's personal data starting from an object containing their main i
         * LIST ITEM: Age -> `person.age` years old
         * LIST ITEM: City -> `person.city`
         * LIST ITEM: Profession -> `person.profession`
+  * NOTE: The component is structured and saved inside the src/components/ folder
 * END COMPONENT App
 ```
