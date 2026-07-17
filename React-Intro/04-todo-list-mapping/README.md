@@ -34,6 +34,7 @@ create a component that displays a todo-list
           * ELEMENTO lista (li) con chiave `task.id`:
             * CHECKBOX impostato sul valore di `task.completata`
             * TESTO della task `task.testo`
+  * NOTA: Il componente è strutturato e salvato all'interno della cartella src/components/
 * FINE COMPONENTE TodoList
 ```
 
@@ -50,5 +51,6 @@ create a component that displays a todo-list
           * LIST ITEM (li) with key `task.id`:
             * CHECKBOX set to the value of `task.completed`
             * TASK TEXT `task.text`
+  * NOTE: The component is structured and saved inside the src/components/ folder
 * END COMPONENT TodoList
 ```
