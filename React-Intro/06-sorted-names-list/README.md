@@ -34,6 +34,7 @@ sort and display a list of names present in an array
         * PER OGNI `nome` (e indice `index`) IN `nomiOrdinati` (ciclo map):
           * ELEMENTO lista (li) con chiave `index`:
             * MOSTRA la stringa `nome`
+  * NOTA: Il componente è strutturato e salvato all'interno della cartella src/components/
 * FINE COMPONENTE SortedNames
 ```
 
@@ -50,5 +51,6 @@ sort and display a list of names present in an array
         * FOR EACH `name` (and index `index`) IN `sortedNames` (map loop):
           * LIST ITEM (li) with key `index`:
             * DISPLAY string `name`
+  * NOTE: The component is structured and saved inside the src/components/ folder
 * END COMPONENT SortedNames
 ```
