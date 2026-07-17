@@ -35,6 +35,7 @@ show the characteristics in a card and calculate the cost of a product, consider
         * PREZZO originale barrato (`prodotto.prezzoOriginale`)
         * BADGE sconto (`prodotto.scontoPercentuale`%)
         * PREZZO finale scontato (`prezzoScontato`)
+  * NOTA: Il componente è strutturato e salvato all'interno della cartella src/components/
 * FINE COMPONENTE App
 ```
 
@@ -52,5 +53,6 @@ show the characteristics in a card and calculate the cost of a product, consider
         * STRIKETHROUGH original price (`product.originalPrice`)
         * DISCOUNT BADGE (`product.discountPercentage`%)
         * FINAL discounted price (`discountedPrice`)
+  * NOTE: The component is structured and saved inside the src/components/ folder
 * END COMPONENT App
 ```
