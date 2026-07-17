@@ -32,6 +32,7 @@ generate a series of colored boxes starting from an array of colors
         * ELEMENTO box (div) con chiave `index`:
           * IMPOSTA stile inline `backgroundColor` uguale a `colore`
           * MOSTRA il codice o nome del colore all'interno del box
+  * NOTA: Il componente è strutturato e salvato all'interno della cartella src/components/
 * FINE COMPONENTE ColorBoxes
 ```
 
@@ -46,5 +47,6 @@ generate a series of colored boxes starting from an array of colors
         * BOX ELEMENT (div) with key `index`:
           * SET inline style `backgroundColor` equal to `color`
           * DISPLAY the color code or name inside the box
+  * NOTE: The component is structured and saved inside the src/components/ folder
 * END COMPONENT ColorBoxes
 ```
