@@ -6,7 +6,6 @@ export default function UserProfileCard() {
     citta: "Milano",
     professione: "Sviluppatore Frontend & React Developer"
   };
-
   return (
     <div className="container py-5" style={{ maxWidth: '600px' }}>
       <article className="card shadow-sm border-0 overflow-hidden">
