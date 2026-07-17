@@ -1,7 +1,6 @@
 export default function SortedNamesList() {
   const nomi = ["Luca", "Anna", "Marco", "Giulia", "Francesco", "Beatrice", "Davide", "Elena", "Chiara", "Simone"];
   const nomiOrdinati = [...nomi].sort();
-
   return (
     <div className="container py-5" style={{ maxWidth: '600px' }}>
       <div className="card shadow-sm border-0 p-4">
