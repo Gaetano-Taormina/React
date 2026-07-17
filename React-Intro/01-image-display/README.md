@@ -33,6 +33,7 @@ display an image stored in a variable
       * ELEMENTO immagine (img):
         * IMPOSTA attributo `src` con il valore di `imageUrl`
         * IMPOSTA attributo `alt` con il valore di `imageAlt`
+  * NOTA: Il componente è strutturato e salvato all'interno della cartella src/components/
 * FINE COMPONENTE App
 ```
 
@@ -48,5 +49,6 @@ display an image stored in a variable
       * IMAGE element (img):
         * SET `src` attribute to the value of `imageUrl`
         * SET `alt` attribute to the value of `imageAlt`
+  * NOTE: The component is structured and saved inside the src/components/ folder
 * END COMPONENT App
 ```
