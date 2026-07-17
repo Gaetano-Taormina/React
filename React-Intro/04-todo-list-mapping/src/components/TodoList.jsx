@@ -6,7 +6,6 @@ export default function TodoList() {
     { id: 4, testo: "Esercitarsi con lo styling in Bootstrap 5", completata: false },
     { id: 5, testo: "Fare push della repository su GitHub", completata: false }
   ];
-
   return (
     <section className="container py-5" style={{ maxWidth: '600px' }}>
       <div className="card shadow-sm border-0 p-4">
