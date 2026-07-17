@@ -5,9 +5,7 @@ export default function ProductDiscountCalculator() {
     prezzoOriginale: 199.99,
     scontoPercentuale: 20
   };
-
   const prezzoScontato = prodotto.prezzoOriginale * (1 - prodotto.scontoPercentuale / 100);
-
   return (
     <div className="container py-5" style={{ maxWidth: '600px' }}>
       <article className="card shadow-sm border-0 p-4">
