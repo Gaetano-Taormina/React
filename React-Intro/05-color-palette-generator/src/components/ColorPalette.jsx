@@ -11,7 +11,6 @@ export default function ColorPalette() {
     "#d63384", // Pink
     "#212529"  // Dark
   ];
-
   return (
     <div className="container py-5">
       <div className="text-center mb-5">
