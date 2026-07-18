@@ -7,13 +7,11 @@ export default function PhonebookDirectory() {
     { id: 5, nome: "Beatrice", cognome: "Neri", telefono: "+39 335 5566778", email: "bea.neri@example.com", categoria: "Lavoro" },
     { id: 6, nome: "Davide", cognome: "Gialli", telefono: "+39 347 8899001", email: "davide.g@example.com", categoria: "Amici" }
   ];
-
   const contattiOrdinati = [...contatti].sort((a, b) => {
     const compareCognome = a.cognome.localeCompare(b.cognome);
     if (compareCognome !== 0) return compareCognome;
     return a.nome.localeCompare(b.nome);
   });
-
   const getBadgeColor = (categoria) => {
     switch (categoria) {
       case 'Lavoro': return 'bg-primary';
@@ -22,7 +20,6 @@ export default function PhonebookDirectory() {
       default: return 'bg-secondary';
     }
   };
-
   return (
     <div className="container py-5">
       <div className="d-flex flex-column flex-md-row justify-content-between align-items-md-center border-bottom pb-3 mb-5">
@@ -36,7 +33,6 @@ export default function PhonebookDirectory() {
           </span>
         </div>
       </div>
-
       <div className="row g-4">
         {contattiOrdinati.map(contatto => (
           <div key={contatto.id} className="col-12 col-md-6 col-lg-4">
@@ -57,9 +53,7 @@ export default function PhonebookDirectory() {
                   <span className="text-muted small">ID Contatto: #{contatto.id}</span>
                 </div>
               </div>
-
               <hr className="text-secondary opacity-25 my-2" />
-
               <div className="mt-3 d-flex flex-column gap-2">
                 <div className="d-flex align-items-center gap-2 text-secondary">
                   <span></span>
