@@ -1,9 +1,7 @@
 import { useState } from 'react';
 import RegistrationForm from './components/RegistrationForm';
-
 export default function App() {
   const [registered, setRegistered] = useState(false);
-
   return (
     <div className="container py-5" style={{ maxWidth: '500px' }}>
       <h1 className="text-center mb-4 fw-bold text-dark">Esercizio 3: Validazione Checkbox</h1>

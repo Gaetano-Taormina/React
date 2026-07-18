@@ -53,6 +53,7 @@ show a service terms checkbox and keep the registration button disabled until th
           * IMPOSTA attributo `disabled` a true
         * ALTRIMENTI:
           * IMPOSTA attributo `disabled` a false
+  * NOTA: Il componente è strutturato e salvato all'interno della cartella src/components/
 * FINE COMPONENTE RegistrationForm
 ```
 
@@ -78,5 +79,6 @@ show a service terms checkbox and keep the registration button disabled until th
           * SET `disabled` attribute to true
         * ELSE:
           * SET `disabled` attribute to false
+  * NOTE: The component is structured and saved inside the src/components/ folder
 * END COMPONENT RegistrationForm
 ```
