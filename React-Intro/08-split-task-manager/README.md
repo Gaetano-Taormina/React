@@ -38,6 +38,7 @@ show a series of tasks, distinguishing completed ones from those still to be don
         * LISTA (ul):
           * PER OGNI `task` IN `taskCompletate` (ciclo map):
             * ELEMENTO lista (li) con chiave `task.id` e stile barrato -> mostra `task.titolo`
+  * NOTA: Il componente è strutturato e salvato all'interno della cartella src/components/
 * FINE COMPONENTE TaskManager
 ```
 
@@ -58,5 +59,6 @@ show a series of tasks, distinguishing completed ones from those still to be don
         * LIST (ul):
           * FOR EACH `task` IN `completedTasks` (map loop):
             * LIST ITEM (li) with key `task.id` and strikethrough style -> display `task.title`
+  * NOTE: The component is structured and saved inside the src/components/ folder
 * END COMPONENT TaskManager
 ```
