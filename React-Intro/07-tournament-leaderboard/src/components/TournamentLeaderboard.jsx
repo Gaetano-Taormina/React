@@ -6,16 +6,13 @@ export default function TournamentLeaderboard() {
     { id: 4, nome: "Elena Neri", punteggioTotale: 2650, partiteGiocate: 30, vittorie: 26, sconfitte: 4 },
     { id: 5, nome: "Marco Gialli", punteggioTotale: 1850, partiteGiocate: 30, vittorie: 18, sconfitte: 12 }
   ];
-
   const partecipantiOrdinati = [...partecipanti].sort((a, b) => b.punteggioTotale - a.punteggioTotale);
-
   const getMedal = (pos) => {
     if (pos === 0) return "";
     if (pos === 1) return "";
     if (pos === 2) return "";
     return `#${pos + 1}`;
   };
-
   return (
     <div className="container py-5" style={{ maxWidth: '850px' }}>
       <div className="card shadow-sm border-0 p-4">
