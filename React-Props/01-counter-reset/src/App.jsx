@@ -1,5 +1,4 @@
 import Counter from './components/Counter';
-
 export default function App() {
   return (
     <div className="container py-5" style={{ maxWidth: '600px' }}>

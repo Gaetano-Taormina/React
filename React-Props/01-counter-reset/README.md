@@ -47,6 +47,7 @@ implement a numerical counter that can be incremented via a button and add a ded
         * AL CLICK esegui `incrementa()`
       * BOTTONE "Reset":
         * AL CLICK esegui `reset()`
+  * NOTA: Il componente è strutturato e salvato all'interno della cartella src/components/
 * FINE COMPONENTE Counter
 ```
 
@@ -66,5 +67,6 @@ implement a numerical counter that can be incremented via a button and add a ded
         * ON CLICK execute `increment()`
       * BUTTON "Reset":
         * ON CLICK execute `reset()`
+  * NOTE: The component is structured and saved inside the src/components/ folder
 * END COMPONENT Counter
 ```
