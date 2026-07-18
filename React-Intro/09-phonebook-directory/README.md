@@ -37,6 +37,7 @@ display a telephone directory (phonebook)
             * DETTAGLIO telefono: `contatto.telefono`
             * DETTAGLIO email: `contatto.email`
             * BADGE categoria (es. Lavoro, Famiglia, Amici): `contatto.categoria`
+  * NOTA: Il componente è strutturato e salvato all'interno della cartella src/components/
 * FINE COMPONENTE Phonebook
 ```
 
@@ -56,5 +57,6 @@ display a telephone directory (phonebook)
             * DETAIL phone: `contact.phone`
             * DETAIL email: `contact.email`
             * BADGE category (e.g. Work, Family, Friends): `contact.category`
+  * NOTE: The component is structured and saved inside the src/components/ folder
 * END COMPONENT Phonebook
 ```
