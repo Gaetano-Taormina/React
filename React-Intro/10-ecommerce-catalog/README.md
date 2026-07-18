@@ -39,6 +39,7 @@ generate the section of an e-commerce page with the list of products
               * MOSTRA pulsante "Aggiungi al carrello"
             * ALTRIMENTI:
               * MOSTRA etichetta "Esaurito" disabilitata
+  * NOTA: Il componente è strutturato e salvato all'interno della cartella src/components/
 * FINE COMPONENTE ProductCatalog
 ```
 
@@ -60,5 +61,6 @@ generate the section of an e-commerce page with the list of products
               * DISPLAY button "Add to cart"
             * ELSE:
               * DISPLAY disabled label "Out of stock"
+  * NOTE: The component is structured and saved inside the src/components/ folder
 * END COMPONENT ProductCatalog
 ```
