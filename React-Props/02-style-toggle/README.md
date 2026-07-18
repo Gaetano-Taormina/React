@@ -46,6 +46,7 @@ create a button that alternates its style class (e.g., from primary to success) 
         * IMPOSTA `className` uguale alla prop `classB` (es. 'success')
       * AL CLICK esegui `toggleStyle()`
       * MOSTRA il testo `label`
+  * NOTA: Il componente è strutturato e salvato all'interno della cartella src/components/
 * FINE COMPONENTE StyleToggleButton
 ```
 
@@ -64,5 +65,6 @@ create a button that alternates its style class (e.g., from primary to success) 
         * SET `className` equal to prop `classB` (e.g. 'success')
       * ON CLICK execute `toggleStyle()`
       * DISPLAY text `label`
+  * NOTE: The component is structured and saved inside the src/components/ folder
 * END COMPONENT StyleToggleButton
 ```

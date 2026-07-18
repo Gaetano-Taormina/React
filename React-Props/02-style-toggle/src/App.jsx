@@ -1,5 +1,4 @@
 import StyleToggleButton from './components/StyleToggleButton';
-
 export default function App() {
   return (
     <div className="container py-5" style={{ maxWidth: '500px' }}>
