@@ -49,14 +49,12 @@ export default function EcommerceCatalog() {
       disponibile: true
     }
   ];
-
   return (
     <section className="container py-5">
       <div className="text-center mb-5">
         <h1 className="fw-bold text-dark display-6">️ I Nostri Prodotti</h1>
         <p className="text-muted">Esplora il nostro catalogo e-commerce con gestione dinamica delle scorte</p>
       </div>
-
       <div className="row g-4">
         {prodotti.map(prodotto => (
           <div key={prodotto.id} className="col-12 col-md-6 col-lg-4">
@@ -79,7 +77,6 @@ export default function EcommerceCatalog() {
                   </div>
                 )}
               </div>
-
               <div className="card-body p-4 d-flex flex-column justify-content-between">
                 <div>
                   <h2 className="h5 fw-bold text-dark mb-2">{prodotto.nome}</h2>
@@ -88,7 +85,6 @@ export default function EcommerceCatalog() {
                     <span className="text-muted small">IVA inclusa</span>
                   </div>
                 </div>
-
                 <div className="mt-auto pt-3 border-top">
                   {prodotto.disponibile ? (
                     <button className="btn btn-primary w-100 py-2 fw-bold shadow-sm d-flex align-items-center justify-content-center gap-2">
