@@ -7,17 +7,14 @@ export default function SplitTaskManager() {
     { id: 5, titolo: "Ottimizzare il bundle per la produzione", completata: false },
     { id: 6, titolo: "Revisione del design responsive", completata: true }
   ];
-
   const taskDaSvolgere = tasks.filter(t => !t.completata);
   const taskCompletate = tasks.filter(t => t.completata);
-
   return (
     <div className="container py-5" style={{ maxWidth: '850px' }}>
       <div className="text-center mb-5">
         <h1 className="fw-bold text-dark">️ Task Manager Separato</h1>
         <p className="text-muted">Gestione e suddivisione automatica delle attività tramite <code>.filter()</code></p>
       </div>
-
       <div className="row g-4">
         {/* To Do Section */}
         <div className="col-12 col-md-6">
@@ -43,7 +40,6 @@ export default function SplitTaskManager() {
             )}
           </div>
         </div>
-
         {/* Completed Section */}
         <div className="col-12 col-md-6">
           <div className="card shadow-sm border-0 h-100 p-4 border-top border-success border-4 bg-light bg-opacity-50">
