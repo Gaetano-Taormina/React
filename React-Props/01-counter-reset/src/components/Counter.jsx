@@ -1,8 +1,6 @@
 import { useState } from 'react';
-
 export default function Counter({ initialValue = 0, step = 1 }) {
   const [count, setCount] = useState(initialValue);
-
   return (
     <div className="card shadow-sm p-4 text-center mb-3 border-0">
       <h3 className="card-title text-secondary">Contatore con Reset</h3>
