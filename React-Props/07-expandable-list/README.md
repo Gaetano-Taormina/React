@@ -53,6 +53,7 @@ present a list of items initially limiting the view to the first three and provi
           * SE `isExpanded` È true -> mostra testo "Mostra meno"
           * ALTRIMENTI -> mostra testo "Mostra tutti (" + `items.length` + ")"
           * AL CLICK esegui `toggleExpand()`
+  * NOTA: Il componente è strutturato e salvato all'interno della cartella src/components/
 * FINE COMPONENTE ExpandableList
 ```
 
@@ -78,5 +79,6 @@ present a list of items initially limiting the view to the first three and provi
           * IF `isExpanded` IS true -> display text "Show less"
           * ELSE -> display text "Show all (" + `items.length` + ")"
           * ON CLICK execute `toggleExpand()`
+  * NOTE: The component is structured and saved inside the src/components/ folder
 * END COMPONENT ExpandableList
 ```
