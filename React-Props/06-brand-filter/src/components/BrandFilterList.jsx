@@ -1,13 +1,10 @@
 import { useState } from 'react';
-
 export default function BrandFilterList({ articles }) {
   const [selectedBrand, setSelectedBrand] = useState('tutte');
   const brands = ['tutte', ...new Set(articles.map((item) => item.brand))];
-
   const filteredArticles = selectedBrand === 'tutte'
     ? articles
     : articles.filter((item) => item.brand === selectedBrand);
-
   return (
     <div className="card shadow-sm p-4 border-0">
       <div className="d-flex justify-content-between align-items-center mb-4 flex-wrap gap-2">
@@ -28,7 +25,6 @@ export default function BrandFilterList({ articles }) {
           </select>
         </div>
       </div>
-
       <div className="row g-3">
         {filteredArticles.map((art) => (
           <div className="col-md-6 col-lg-4" key={art.id}>
