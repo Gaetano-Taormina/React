@@ -1,9 +1,7 @@
 import { useState } from 'react';
-
 export default function ExpandableList({ items, initialLimit = 3 }) {
   const [isExpanded, setIsExpanded] = useState(false);
   const displayedItems = isExpanded ? items : items.slice(0, initialLimit);
-
   return (
     <div className="card shadow-sm p-4 border-0">
       <h3 className="card-title mb-3 fw-bold text-dark">Lista Funzionalità</h3>
