@@ -1,13 +1,10 @@
 import { useState } from 'react';
-
 export default function SizeSelector({ sizes, onSizeSelect }) {
   const [selectedSize, setSelectedSize] = useState(sizes[0] || null);
-
   const handleSelect = (size) => {
     setSelectedSize(size);
     if (onSizeSelect) onSizeSelect(size);
   };
-
   return (
     <div className="card shadow-sm p-4 border-0 text-center">
       <div className="d-flex justify-content-between align-items-center mb-4">
