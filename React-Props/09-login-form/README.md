@@ -51,6 +51,7 @@ build a login form where the submit button remains inactive until the email and 
       * BOTTONE submit "Accedi":
         * SE `isFormValid` È false -> imposta attributo `disabled` a true
         * ALTRIMENTI -> imposta attributo `disabled` a false
+  * NOTA: Il componente è strutturato e salvato all'interno della cartella src/components/
 * FINE COMPONENTE LoginForm
 ```
 
@@ -74,5 +75,6 @@ build a login form where the submit button remains inactive until the email and 
       * SUBMIT BUTTON "Login":
         * IF `isFormValid` IS false -> set `disabled` attribute to true
         * ELSE -> set `disabled` attribute to false
+  * NOTE: The component is structured and saved inside the src/components/ folder
 * END COMPONENT LoginForm
 ```

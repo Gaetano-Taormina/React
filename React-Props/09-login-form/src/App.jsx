@@ -1,9 +1,7 @@
 import { useState } from 'react';
 import LoginForm from './components/LoginForm';
-
 export default function App() {
   const [user, setUser] = useState(null);
-
   return (
     <div className="container py-5" style={{ maxWidth: '450px' }}>
       <h1 className="text-center mb-2 fw-bold text-dark">Esercizio 9: Form Login</h1>
