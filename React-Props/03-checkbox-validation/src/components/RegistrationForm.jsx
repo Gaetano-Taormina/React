@@ -1,13 +1,10 @@
 import { useState } from 'react';
-
 export default function RegistrationForm({ onRegister }) {
   const [termsAccepted, setTermsAccepted] = useState(false);
-
   const handleSubmit = (e) => {
     e.preventDefault();
     if (termsAccepted) onRegister();
   };
-
   return (
     <form onSubmit={handleSubmit} className="card shadow-sm p-4 border-0">
       <h3 className="text-center mb-4 fw-bold">Registrazione Account</h3>
@@ -25,7 +22,6 @@ export default function RegistrationForm({ onRegister }) {
           Accetto i termini di servizio e la privacy policy
         </label>
       </div>
-
       <button
         type="submit"
         className={`btn w-100 fw-bold py-3 shadow-sm ${termsAccepted ? 'btn-success' : 'btn-secondary'}`}
