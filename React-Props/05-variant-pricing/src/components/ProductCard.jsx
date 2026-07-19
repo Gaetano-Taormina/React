@@ -1,16 +1,12 @@
 import { useState } from 'react';
-
 export default function ProductCard({ basePrice, variants, productName }) {
   const [selectedVariantIndex, setSelectedVariantIndex] = useState(0);
-
   const handleVariantChange = (event) => {
     // USO DI event.target.value per leggere l'indice selezionato dalla tendina
     setSelectedVariantIndex(Number(event.target.value));
   };
-
   const selectedVariant = variants[selectedVariantIndex];
   const finalPrice = basePrice * (1 + selectedVariant.surchargePercentage / 100);
-
   return (
     <div className="card shadow-sm p-4 border-0 bg-dark text-white rounded-4">
       <span className="badge bg-info text-dark align-self-start mb-2 px-3 py-2 fw-bold">PRODOTTO PREMIUM</span>
@@ -30,7 +26,6 @@ export default function ProductCard({ basePrice, variants, productName }) {
           ))}
         </select>
       </div>
-
       <div className="p-3 bg-black bg-opacity-50 rounded-3 d-flex justify-content-between align-items-center">
         <div>
           <small className="text-muted d-block">Prezzo Base:</small>
