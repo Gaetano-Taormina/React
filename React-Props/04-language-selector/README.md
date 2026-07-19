@@ -46,6 +46,7 @@ display a welcome message that updates in real time by choosing between differen
             * AL CLICK imposta `currentLang` uguale a `lang`
             * EVIDENZIA graficamente se `currentLang === lang`
             * MOSTRA il nome della lingua o il codice `lang`
+  * NOTA: Il componente è strutturato e salvato all'interno della cartella src/components/
 * FINE COMPONENTE LanguageSelector
 ```
 
@@ -64,5 +65,6 @@ display a welcome message that updates in real time by choosing between differen
             * ON CLICK set `currentLang` equal to `lang`
             * HIGHLIGHT graphically if `currentLang === lang`
             * DISPLAY language name or code `lang`
+  * NOTE: The component is structured and saved inside the src/components/ folder
 * END COMPONENT LanguageSelector
 ```
