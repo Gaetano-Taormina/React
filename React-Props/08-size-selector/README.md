@@ -52,6 +52,7 @@ display a group of buttons for the available sizes and visually highlight the ac
               * APPLICA classe di stile standard
             * AL CLICK esegui `handleSelect(size)`
             * MOSTRA testo della taglia `size` (es. S, M, L, XL)
+  * NOTA: Il componente è strutturato e salvato all'interno della cartella src/components/
 * FINE COMPONENTE SizeSelector
 ```
 
@@ -76,5 +77,6 @@ display a group of buttons for the available sizes and visually highlight the ac
               * APPLY standard style class
             * ON CLICK execute `handleSelect(size)`
             * DISPLAY size text `size` (e.g. S, M, L, XL)
+  * NOTE: The component is structured and saved inside the src/components/ folder
 * END COMPONENT SizeSelector
 ```
