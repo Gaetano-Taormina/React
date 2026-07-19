@@ -1,10 +1,8 @@
 import { useState } from 'react';
-
 export default function LanguageSelector({ messages }) {
   const [currentLang, setCurrentLang] = useState('it');
   const flags = { it: '', en: '', es: '', fr: '' };
   const names = { it: 'Italiano', en: 'English', es: 'Español', fr: 'Français' };
-
   return (
     <div className="card shadow-sm p-4 text-center border-0">
       <div className="p-4 bg-light rounded mb-4 border">
