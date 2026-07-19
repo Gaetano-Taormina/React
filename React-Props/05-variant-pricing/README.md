@@ -48,6 +48,7 @@ create a product card that dynamically recalculates the final price by applying 
       * SEZIONE prezzo:
         * MOSTRA prezzo base `basePrice` €
         * MOSTRA prezzo finale ricalcolato `prezzoFinale` €
+  * NOTA: Il componente è strutturato e salvato all'interno della cartella src/components/
 * FINE COMPONENTE ProductCard
 ```
 
@@ -68,5 +69,6 @@ create a product card that dynamically recalculates the final price by applying 
       * PRICE SECTION:
         * DISPLAY base price `basePrice` €
         * DISPLAY recalculated final price `finalPrice` €
+  * NOTE: The component is structured and saved inside the src/components/ folder
 * END COMPONENT ProductCard
 ```
