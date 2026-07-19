@@ -50,6 +50,7 @@ given a collection of articles, implement a dropdown menu (select) that filters 
       * LISTA PRODOTTI (ul o griglia):
         * PER OGNI `articolo` IN `filteredArticles` (ciclo map):
           * ELEMENTO lista con chiave `articolo.id` -> mostra nome e marca
+  * NOTA: Il componente è strutturato e salvato all'interno della cartella src/components/
 * FINE COMPONENTE BrandFilterList
 ```
 
@@ -72,5 +73,6 @@ given a collection of articles, implement a dropdown menu (select) that filters 
       * PRODUCTS LIST (ul or grid):
         * FOR EACH `article` IN `filteredArticles` (map loop):
           * LIST ITEM with key `article.id` -> display name and brand
+  * NOTE: The component is structured and saved inside the src/components/ folder
 * END COMPONENT BrandFilterList
 ```
