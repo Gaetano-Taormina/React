@@ -56,6 +56,7 @@ generate a list of activities allowing each item to be marked as completed on cl
               * APPLICA stile testuale normale
             * AL CLICK sull'elemento esegui `toggleTask(task.id)`
             * MOSTRA `task.text` e un indicatore di completamento
+  * NOTA: Il componente è strutturato e salvato all'interno della cartella src/components/
 * FINE COMPONENTE InteractiveTodoList
 ```
 
@@ -84,5 +85,6 @@ generate a list of activities allowing each item to be marked as completed on cl
               * APPLY normal text style
             * ON CLICK on item execute `toggleTask(task.id)`
             * DISPLAY `task.text` and completion indicator
+  * NOTE: The component is structured and saved inside the src/components/ folder
 * END COMPONENT InteractiveTodoList
 ```
