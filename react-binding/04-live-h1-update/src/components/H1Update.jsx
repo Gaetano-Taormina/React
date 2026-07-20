@@ -1,8 +1,6 @@
 import { useState } from 'react';
-
 export default function H1Update() {
   const [title, setTitle] = useState("");
-
   return (
     <div className="container py-4">
       <div className="card shadow-sm p-4 text-center">
