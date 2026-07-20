@@ -30,6 +30,7 @@ dynamically display the number of characters entered in an input box, updating t
     * CONTENITORE Bootstrap card
       * INPUT testuale collegato a `text`
       * BADGE che mostra dinamicamente la lunghezza di `text` (`text.length`)
+  * NOTA: Il componente è strutturato e salvato all'interno della cartella src/components/
 * FINE COMPONENTE CharCounter
 ```
 
@@ -42,5 +43,6 @@ dynamically display the number of characters entered in an input box, updating t
     * Bootstrap card CONTAINER
       * TEXT INPUT linked to `text`
       * BADGE dynamically showing `text.length`
+  * NOTE: The component is structured and saved inside the src/components/ folder
 * END COMPONENT CharCounter
 ```
