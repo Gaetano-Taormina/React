@@ -29,6 +29,7 @@ update the content of an <h1> tag with the text entered by the user in an input 
   * RITORNA struttura JSX:
     * ELEMENTO `<h1>` dinamico che visualizza `title`
     * INPUT testuale per aggiornare `title` in tempo reale
+  * NOTA: Il componente è strutturato e salvato all'interno della cartella src/components/
 * FINE COMPONENTE H1Update
 ```
 
@@ -40,5 +41,6 @@ update the content of an <h1> tag with the text entered by the user in an input 
   * RETURN JSX structure:
     * DYNAMIC `<h1>` element displaying `title`
     * TEXT INPUT to update `title` in real time
+  * NOTE: The component is structured and saved inside the src/components/ folder
 * END COMPONENT H1Update
 ```
