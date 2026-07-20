@@ -30,6 +30,7 @@ display in real time in a paragraph below each character typed by the user in a 
     * CONTENITORE Bootstrap card
       * INPUT testuale per aggiornare `text`
       * PARAGRAFO sottostante che mostra in tempo reale il valore di `text`
+  * NOTA: Il componente è strutturato e salvato all'interno della cartella src/components/
 * FINE COMPONENTE TextEcho
 ```
 
@@ -42,5 +43,6 @@ display in real time in a paragraph below each character typed by the user in a 
     * Bootstrap card CONTAINER
       * TEXT INPUT to update `text`
       * PARAGRAPH below displaying real-time `text` value
+  * NOTE: The component is structured and saved inside the src/components/ folder
 * END COMPONENT TextEcho
 ```
