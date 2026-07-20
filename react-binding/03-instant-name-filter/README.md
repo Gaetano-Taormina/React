@@ -31,6 +31,7 @@ instantly filter an array of names displayed on screen, showing only those conta
   * RITORNA struttura JSX:
     * INPUT di ricerca
     * LISTA di elementi renderizzati con `.map()` da `filtered`
+  * NOTA: Il componente è strutturato e salvato all'interno della cartella src/components/
 * FINE COMPONENTE NameFilter
 ```
 
@@ -44,5 +45,6 @@ instantly filter an array of names displayed on screen, showing only those conta
   * RETURN JSX structure:
     * SEARCH INPUT field
     * LIST of items rendered with `.map()` from `filtered`
+  * NOTE: The component is structured and saved inside the src/components/ folder
 * END COMPONENT NameFilter
 ```
