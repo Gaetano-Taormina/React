@@ -14,23 +14,6 @@ Comprehensive collection of 10 exercises covering **Props**, **State management 
 
 ---
 
-## Elenco Esercizi / Exercises Overview
-
-Ogni cartella rappresenta un progetto React + Vite indipendente e configurato, corredato da un proprio `README.md` con traccia in italiano/inglese e pseudocodice indentato (Reasoning). / Each folder represents a standalone, configured React + Vite project, complete with its own `README.md` featuring Italian/English specifications and indented pseudocode (Reasoning).
-
-| # | Cartella / Folder | Funzionalità / Feature | Concetti Chiave / Key Concepts |
-| :---: | :--- | :--- | :--- |
-| **1** | [`01-counter-reset`](./01-counter-reset) | Contatore con Reset / Counter with Reset | Props (`initialValue`, `step`), `useState`, reset handlers |
-| **2** | [`02-style-toggle`](./02-style-toggle) | Toggle Classe CSS / CSS Style Toggle | Styling dinamico con classi Bootstrap (`primary` / `success`) / Dynamic styling with Bootstrap classes |
-| **3** | [`03-checkbox-validation`](./03-checkbox-validation) | Validazione Checkbox / Checkbox Validation | Eventi form e attributo `disabled` condizionale / Form events and conditional `disabled` attribute |
-| **4** | [`04-language-selector`](./04-language-selector) | Selettore Lingua / Language Selector | Oggetti di traduzione, mapping di chiavi / Translation objects and key mapping |
-| **5** | [`05-variant-pricing`](./05-variant-pricing) | Prezzo Variante / Variant Pricing | **`event.target.value`** con `<select>`, calcolo percentuale / **`event.target.value`** with `<select>` |
-| **6** | [`06-brand-filter`](./06-brand-filter) | Filtro Marca / Brand Filter | **`event.target.value`** con `<select>`, filtro array (`filter`) / Array filtering with `<select>` |
-| **7** | [`07-expandable-list`](./07-expandable-list) | Lista Espandibile / Expandable List | Slice condizionale degli array, toggle testo / Conditional array slicing and button toggle |
-| **8** | [`08-size-selector`](./08-size-selector) | Selezione Taglia / Size Selector | Mapping di bottoni, evidenziazione elemento attivo / Button mapping and active state highlighting |
-| **9** | [`09-login-form`](./09-login-form) | Form Login / Validated Login Form | **`event.target.value`** con `<input>`, validazione combinata / Multi-input real-time validation |
-| **10** | [`10-interactive-todo-list`](./10-interactive-todo-list) | Todo List Interattiva / Interactive Todo List | Modifica immutabile di array, stile barrato / Immutable array updates and strikethrough |
-
 ---
 
 ## Esercizi in evidenza (`event.target.value`) / Featured Exercises
@@ -68,3 +51,37 @@ To run any exercise locally:
 2. Install dependencies with `npm install` (or `pnpm install`)
 3. Start the development server with `npm run dev` (or `pnpm run dev`)
 4. Run linter checks with `pnpm oxlint`
+
+## Elenco Esercizi (Italiano)
+
+Ogni cartella rappresenta un progetto React + Vite indipendente e configurato, corredato da un proprio `README.md` con traccia in italiano/inglese e pseudocodice indentato (Reasoning).
+
+| # | Cartella | Funzionalità | Concetti Chiave |
+| :---: | :--- | :--- | :--- |
+| **1** | [`01-counter-reset`](./01-counter-reset) | Contatore con Reset | Props (`initialValue`, `step`), `useState`, reset handlers |
+| **2** | [`02-style-toggle`](./02-style-toggle) | Toggle Classe CSS | Styling dinamico con classi Bootstrap (`primary` |
+| **3** | [`03-checkbox-validation`](./03-checkbox-validation) | Validazione Checkbox | Eventi form e attributo `disabled` condizionale |
+| **4** | [`04-language-selector`](./04-language-selector) | Selettore Lingua | Oggetti di traduzione, mapping di chiavi |
+| **5** | [`05-variant-pricing`](./05-variant-pricing) | Prezzo Variante | **`event.target.value`** con `<select>`, calcolo percentuale |
+| **6** | [`06-brand-filter`](./06-brand-filter) | Filtro Marca | **`event.target.value`** con `<select>`, filtro array (`filter`) |
+| **7** | [`07-expandable-list`](./07-expandable-list) | Lista Espandibile | Slice condizionale degli array, toggle testo |
+| **8** | [`08-size-selector`](./08-size-selector) | Selezione Taglia | Mapping di bottoni, evidenziazione elemento attivo |
+| **9** | [`09-login-form`](./09-login-form) | Form Login | **`event.target.value`** con `<input>`, validazione combinata |
+| **10** | [`10-interactive-todo-list`](./10-interactive-todo-list) | Todo List Interattiva | Modifica immutabile di array, stile barrato |
+
+## Exercises Overview (English)
+
+Each folder represents a standalone, configured React + Vite project, complete with its own `README.md` featuring Italian/English specifications and indented pseudocode (Reasoning).
+
+| # | Folder | Feature | Key Concepts |
+| :---: | :--- | :--- | :--- |
+| **1** | [`01-counter-reset`](./01-counter-reset) | Counter with Reset | Props (`initialValue`, `step`), `useState`, reset handlers |
+| **2** | [`02-style-toggle`](./02-style-toggle) | CSS Style Toggle | `success`) |
+| **3** | [`03-checkbox-validation`](./03-checkbox-validation) | Checkbox Validation | Form events and conditional `disabled` attribute |
+| **4** | [`04-language-selector`](./04-language-selector) | Language Selector | Translation objects and key mapping |
+| **5** | [`05-variant-pricing`](./05-variant-pricing) | Variant Pricing | **`event.target.value`** with `<select>` |
+| **6** | [`06-brand-filter`](./06-brand-filter) | Brand Filter | Array filtering with `<select>` |
+| **7** | [`07-expandable-list`](./07-expandable-list) | Expandable List | Conditional array slicing and button toggle |
+| **8** | [`08-size-selector`](./08-size-selector) | Size Selector | Button mapping and active state highlighting |
+| **9** | [`09-login-form`](./09-login-form) | Validated Login Form | Multi-input real-time validation |
+| **10** | [`10-interactive-todo-list`](./10-interactive-todo-list) | Interactive Todo List | Immutable array updates and strikethrough |
