@@ -30,6 +30,7 @@ merge in real time the value of two distinct inputs (first name and last name), 
   * RITORNA struttura JSX:
     * DUE INPUT separati per nome e cognome
     * ALERT o box di testo che unisce e mostra in tempo reale `first` e `last`
+  * NOTA: Il componente è strutturato e salvato all'interno della cartella src/components/
 * FINE COMPONENTE NameMerger
 ```
 
@@ -42,5 +43,6 @@ merge in real time the value of two distinct inputs (first name and last name), 
   * RETURN JSX structure:
     * TWO SEPARATE inputs for first and last name
     * ALERT box merging and displaying `first` and `last` in real time
+  * NOTE: The component is structured and saved inside the src/components/ folder
 * END COMPONENT NameMerger
 ```
