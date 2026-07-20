@@ -1,8 +1,6 @@
 import { useState } from 'react';
-
 export default function CharCounter() {
   const [text, setText] = useState("");
-
   return (
     <div className="container py-4">
       <div className="card shadow-sm p-4">
