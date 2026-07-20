@@ -1,14 +1,11 @@
 import { useState } from 'react';
-
 export default function InteractiveTodoList({ initialTasks }) {
   const [tasks, setTasks] = useState(initialTasks);
-
   const toggleTask = (taskId) => {
     setTasks(tasks.map((t) => 
       t.id === taskId ? { ...t, completed: !t.completed } : t
     ));
   };
-
   return (
     <div className="card shadow-sm p-4 border-0">
       <h3 className="card-title text-center mb-1 fw-bold text-dark">Lista Attività</h3>
