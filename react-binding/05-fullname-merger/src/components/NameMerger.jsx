@@ -1,9 +1,7 @@
 import { useState } from 'react';
-
 export default function NameMerger() {
   const [first, setFirst] = useState("");
   const [last, setLast] = useState("");
-
   return (
     <div className="container py-4">
       <div className="card shadow-sm p-4">
