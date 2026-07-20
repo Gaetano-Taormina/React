@@ -1,12 +1,8 @@
 import { useState } from 'react';
-
 const NAMES = ["Alice Rossi", "Marco Bianchi", "Giulia Verdi", "Luca Neri", "Elena Ferrari"];
-
 export default function NameFilter() {
   const [search, setSearch] = useState("");
-
   const filtered = NAMES.filter(n => n.toLowerCase().includes(search.toLowerCase()));
-
   return (
     <div className="container py-4">
       <div className="card shadow-sm p-4">
