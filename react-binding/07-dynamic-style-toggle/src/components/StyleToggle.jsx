@@ -1,16 +1,13 @@
 import { useState } from 'react';
-
 export default function StyleToggle() {
   const [bold, setBold] = useState(false);
   const [italic, setItalic] = useState(false);
   const [underline, setUnderline] = useState(false);
-
   const classes = [
     bold ? "fw-bold" : "",
     italic ? "fst-italic" : "",
     underline ? "text-decoration-underline" : ""
   ].join(" ").trim();
-
   return (
     <div className="container py-4">
       <div className="card shadow-sm p-4">
