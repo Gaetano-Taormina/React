@@ -30,6 +30,7 @@ change the language of a welcome message displayed on the screen by selecting th
   * RITORNA struttura JSX:
     * SELECT per scegliere il codice lingua
     * ALERT che mostra il messaggio di benvenuto associato a `GREETINGS[lang]`
+  * NOTA: Il componente è strutturato e salvato all'interno della cartella src/components/
 * FINE COMPONENTE LangSelector
 ```
 
@@ -42,5 +43,6 @@ change the language of a welcome message displayed on the screen by selecting th
   * RETURN JSX structure:
     * SELECT dropdown to pick language code
     * ALERT displaying welcome string inside `GREETINGS[lang]`
+  * NOTE: The component is structured and saved inside the src/components/ folder
 * END COMPONENT LangSelector
 ```
