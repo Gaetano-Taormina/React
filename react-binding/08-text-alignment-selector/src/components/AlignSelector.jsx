@@ -1,8 +1,6 @@
 import { useState } from 'react';
-
 export default function AlignSelector() {
   const [align, setAlign] = useState("text-start");
-
   return (
     <div className="container py-4">
       <div className="card shadow-sm p-4">
