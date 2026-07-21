@@ -29,6 +29,7 @@ change the page background color by choosing from several predefined color optio
   * RITORNA struttura JSX:
     * CONTENITORE principale che adotta dinamicamente la classe `color.class`
     * GRUPPO di pulsanti per cambiare istantaneamente `color`
+  * NOTA: Il componente è strutturato e salvato all'interno della cartella src/components/
 * FINE COMPONENTE ColorPicker
 ```
 
@@ -40,5 +41,6 @@ change the page background color by choosing from several predefined color optio
   * RETURN JSX structure:
     * MAIN wrapper adopting dynamic `color.class`
     * BUTTON GROUP to instantly update `color`
+  * NOTE: The component is structured and saved inside the src/components/ folder
 * END COMPONENT ColorPicker
 ```
