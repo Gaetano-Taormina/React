@@ -29,6 +29,7 @@ resize page text based on the radio button selected by the user
   * RITORNA struttura JSX:
     * RADIO BUTTON (Piccolo, Medio, Grande) che modificano `size`
     * TESTO dimostrativo la cui classe Bootstrap di dimensione corrisponde a `size`
+  * NOTA: Il componente è strutturato e salvato all'interno della cartella src/components/
 * FINE COMPONENTE FontResizer
 ```
 
@@ -40,5 +41,6 @@ resize page text based on the radio button selected by the user
   * RETURN JSX structure:
     * RADIO BUTTONS (Small, Medium, Large) updating `size`
     * DEMO TEXT whose Bootstrap size class matches `size`
+  * NOTE: The component is structured and saved inside the src/components/ folder
 * END COMPONENT FontResizer
 ```
