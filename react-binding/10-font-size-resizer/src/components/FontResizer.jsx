@@ -1,8 +1,6 @@
 import { useState } from 'react';
-
 export default function FontResizer() {
   const [size, setSize] = useState("fs-5");
-
   return (
     <div className="container py-4">
       <div className="card shadow-sm p-4">
