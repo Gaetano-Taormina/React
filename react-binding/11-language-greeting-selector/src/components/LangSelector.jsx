@@ -1,15 +1,12 @@
 import { useState } from 'react';
-
 const GREETINGS = {
   it: "Benvenuto nel nostro portale!",
   en: "Welcome to our portal!",
   es: "¡Bienvenido a nuestro portal!",
   fr: "Bienvenue sur notre portail!"
 };
-
 export default function LangSelector() {
   const [lang, setLang] = useState("it");
-
   return (
     <div className="container py-4">
       <div className="card shadow-sm p-4">
