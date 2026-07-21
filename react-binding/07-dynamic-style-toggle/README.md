@@ -29,6 +29,7 @@ apply or remove a specific style (e.g. bold, italic, underline, highlight) to ta
   * RITORNA struttura JSX:
     * PARAGRAFO le cui classi Bootstrap dinamiche (`fw-bold`, `fst-italic`, `text-decoration-underline`) seguono le checkbox
     * GRUPPO di checkbox per attivare/disattivare ogni stile
+  * NOTA: Il componente è strutturato e salvato all'interno della cartella src/components/
 * FINE COMPONENTE StyleToggle
 ```
 
@@ -40,5 +41,6 @@ apply or remove a specific style (e.g. bold, italic, underline, highlight) to ta
   * RETURN JSX structure:
     * PARAGRAPH whose dynamic Bootstrap classes (`fw-bold`, `fst-italic`, `text-decoration-underline`) follow checkboxes
     * GROUP of checkboxes to toggle each style
+  * NOTE: The component is structured and saved inside the src/components/ folder
 * END COMPONENT StyleToggle
 ```
