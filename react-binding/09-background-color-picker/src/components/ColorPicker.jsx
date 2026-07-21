@@ -1,15 +1,12 @@
 import { useState } from 'react';
-
 const COLORS = [
   { name: "Bianco", class: "bg-white text-dark", btn: "btn-outline-dark" },
   { name: "Grigio", class: "bg-light text-dark", btn: "btn-secondary" },
   { name: "Azzurro", class: "bg-info-subtle text-dark", btn: "btn-info" },
   { name: "Scuro", class: "bg-dark text-white", btn: "btn-dark" }
 ];
-
 export default function ColorPicker() {
   const [color, setColor] = useState(COLORS[0]);
-
   return (
     <div className={`min-vh-100 py-4 ${color.class}`}>
       <div className="container">
