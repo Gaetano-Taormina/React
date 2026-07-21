@@ -29,6 +29,7 @@ change the text alignment (left, center, right) of a paragraph by selecting the 
   * RITORNA struttura JSX:
     * GRUPPO di radio button (Sinistra, Centro, Destra) che cambiano `align`
     * PARAGRAFO che applica dinamicamente la classe CSS definita in `align`
+  * NOTA: Il componente è strutturato e salvato all'interno della cartella src/components/
 * FINE COMPONENTE AlignSelector
 ```
 
@@ -40,5 +41,6 @@ change the text alignment (left, center, right) of a paragraph by selecting the 
   * RETURN JSX structure:
     * GROUP of radio buttons (Left, Center, Right) changing `align`
     * PARAGRAPH dynamically applying the CSS class stored in `align`
+  * NOTE: The component is structured and saved inside the src/components/ folder
 * END COMPONENT AlignSelector
 ```
