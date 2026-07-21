@@ -29,6 +29,7 @@ keep an action button disabled until the user checks a specific checkbox confirm
   * RITORNA struttura JSX:
     * CHECKBOX di conferma collegata a `checked`
     * PULSANTE di invio con attributo `disabled={!checked}`
+  * NOTA: Il componente è strutturato e salvato all'interno della cartella src/components/
 * FINE COMPONENTE SubmitUnlock
 ```
 
@@ -40,5 +41,6 @@ keep an action button disabled until the user checks a specific checkbox confirm
   * RETURN JSX structure:
     * CHECKBOX input linked to `checked`
     * SUBMIT BUTTON with attribute `disabled={!checked}`
+  * NOTE: The component is structured and saved inside the src/components/ folder
 * END COMPONENT SubmitUnlock
 ```
