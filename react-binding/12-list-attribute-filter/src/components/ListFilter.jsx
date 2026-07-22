@@ -1,17 +1,13 @@
 import { useState } from 'react';
-
 const ITEMS = [
   { id: 1, name: "MacBook Pro", cat: "Tech" },
   { id: 2, name: "Cuffie Sony", cat: "Tech" },
   { id: 3, name: "Felpa Cotone", cat: "Abbigliamento" },
   { id: 4, name: "Clean Code", cat: "Libri" }
 ];
-
 export default function ListFilter() {
   const [category, setCategory] = useState("all");
-
   const filtered = category === "all" ? ITEMS : ITEMS.filter(i => i.cat === category);
-
   return (
     <div className="container py-4">
       <div className="card shadow-sm p-4">
