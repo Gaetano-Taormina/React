@@ -33,6 +33,7 @@ manage newsletter subscription by hiding the form and displaying a thank you mes
   * RITORNA struttura JSX:
     * SE `!submitted`, MOSTRA il form con input email e bottone Iscriviti
     * ALTRIMENTI, NASCONDI il form e MOSTRA un messaggio di ringraziamento con la conferma dell'indirizzo
+  * NOTA: Il componente è strutturato e salvato all'interno della cartella src/components/
 * FINE COMPONENTE Newsletter
 ```
 
@@ -48,5 +49,6 @@ manage newsletter subscription by hiding the form and displaying a thank you mes
   * RETURN JSX structure:
     * IF `!submitted`, SHOW the subscription form with email input and button
     * ELSE, HIDE the form and SHOW a thank you confirmation message with the address
+  * NOTE: The component is structured and saved inside the src/components/ folder
 * END COMPONENT Newsletter
 ```
