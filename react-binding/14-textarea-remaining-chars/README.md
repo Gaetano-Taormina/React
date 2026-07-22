@@ -30,6 +30,7 @@ display the number of remaining characters to type while typing in a textarea
   * RITORNA struttura JSX:
     * TEXTAREA collegata a `text` con limite `maxLength={MAX}`
     * BADGE colorato con i caratteri rimanenti
+  * NOTA: Il componente è strutturato e salvato all'interno della cartella src/components/
 * FINE COMPONENTE RemainingChars
 ```
 
@@ -42,5 +43,6 @@ display the number of remaining characters to type while typing in a textarea
   * RETURN JSX structure:
     * TEXTAREA linked to `text` with `maxLength={MAX}`
     * COLORED BADGE showing remaining characters
+  * NOTE: The component is structured and saved inside the src/components/ folder
 * END COMPONENT RemainingChars
 ```
