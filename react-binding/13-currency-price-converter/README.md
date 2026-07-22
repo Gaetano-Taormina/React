@@ -31,6 +31,7 @@ convert and display the price of a fixed product in different currencies (EUR, U
   * RITORNA struttura JSX:
     * SELECT valuta
     * DISPLAY con simbolo e prezzo convertito
+  * NOTA: Il componente è strutturato e salvato all'interno della cartella src/components/
 * FINE COMPONENTE PriceConverter
 ```
 
@@ -44,5 +45,6 @@ convert and display the price of a fixed product in different currencies (EUR, U
   * RETURN JSX structure:
     * SELECT dropdown for currency
     * DISPLAY showing symbol and converted price
+  * NOTE: The component is structured and saved inside the src/components/ folder
 * END COMPONENT PriceConverter
 ```
