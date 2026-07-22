@@ -31,6 +31,7 @@ display elements of a list, and via a select dropdown, filter them by an attribu
   * RITORNA struttura JSX:
     * SELECT per filtrare la categoria
     * LISTA (`ul`) di elementi corrispondenti
+  * NOTA: Il componente è strutturato e salvato all'interno della cartella src/components/
 * FINE COMPONENTE ListFilter
 ```
 
@@ -44,5 +45,6 @@ display elements of a list, and via a select dropdown, filter them by an attribu
   * RETURN JSX structure:
     * SELECT dropdown to filter category
     * LIST (`ul`) rendering matching items
+  * NOTE: The component is structured and saved inside the src/components/ folder
 * END COMPONENT ListFilter
 ```
