@@ -1,15 +1,12 @@
 import { useState } from 'react';
-
 const PROMOS = {
   "SCONTO10": 10,
   "PROMO20": 20,
   "WELCOME50": 50
 };
-
 export default function PromoValidator() {
   const [code, setCode] = useState("");
   const [status, setStatus] = useState(null);
-
   const handleValidate = (e) => {
     e.preventDefault();
     const cleanCode = code.trim().toUpperCase();
@@ -19,7 +16,6 @@ export default function PromoValidator() {
       setStatus({ valid: false, msg: "Codice promozionale non valido o scaduto." });
     }
   };
-
   return (
     <div className="container py-4">
       <div className="card shadow-sm p-4">
