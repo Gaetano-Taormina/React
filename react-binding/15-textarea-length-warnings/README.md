@@ -30,6 +30,7 @@ show alerts regarding the amount of text typed in a textarea (e.g. too short, to
   * RITORNA struttura JSX:
     * TEXTAREA di input
     * ALERT dinamico che notifica la quantità di testo
+  * NOTA: Il componente è strutturato e salvato all'interno della cartella src/components/
 * FINE COMPONENTE LengthAlerts
 ```
 
@@ -42,5 +43,6 @@ show alerts regarding the amount of text typed in a textarea (e.g. too short, to
   * RETURN JSX structure:
     * TEXTAREA input field
     * DYNAMIC ALERT notifying text length status
+  * NOTE: The component is structured and saved inside the src/components/ folder
 * END COMPONENT LengthAlerts
 ```
