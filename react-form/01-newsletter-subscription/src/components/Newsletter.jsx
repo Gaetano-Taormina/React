@@ -1,14 +1,11 @@
 import { useState } from 'react';
-
 export default function Newsletter() {
   const [email, setEmail] = useState("");
   const [submitted, setSubmitted] = useState(false);
-
   const handleSubmit = (e) => {
     e.preventDefault();
     if (email.trim()) setSubmitted(true);
   };
-
   return (
     <div className="container py-4">
       <div className="card shadow-sm p-4">
