@@ -1,9 +1,7 @@
 import { useState } from 'react';
-
 export default function LengthAlerts() {
   const [text, setText] = useState("");
   const len = text.length;
-
   let alertClass = "alert-warning";
   let msg = "Testo troppo corto (< 10 caratteri)";
   if (len >= 10 && len <= 50) {
@@ -13,7 +11,6 @@ export default function LengthAlerts() {
     alertClass = "alert-danger";
     msg = "Testo troppo lungo (> 50 caratteri)";
   }
-
   return (
     <div className="container py-4">
       <div className="card shadow-sm p-4">
