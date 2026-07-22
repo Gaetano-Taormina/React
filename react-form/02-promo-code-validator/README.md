@@ -35,6 +35,7 @@ validate a promotional code entered by the user, showing the discount applied or
   * RITORNA struttura JSX:
     * FORM con input per il codice e bottone Applica
     * BOX di notifica (Alert Bootstrap verde o rosso) che mostra l'esito dinamicamente se `status !== null`
+  * NOTA: Il componente è strutturato e salvato all'interno della cartella src/components/
 * FINE COMPONENTE PromoValidator
 ```
 
@@ -52,5 +53,6 @@ validate a promotional code entered by the user, showing the discount applied or
   * RETURN JSX structure:
     * FORM with text input and Apply button
     * NOTIFICATION box (Bootstrap alert green or red) dynamically showing `status` if present
+  * NOTE: The component is structured and saved inside the src/components/ folder
 * END COMPONENT PromoValidator
 ```
