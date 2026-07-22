@@ -1,11 +1,8 @@
 import { useState } from 'react';
-
 const MAX = 100;
-
 export default function RemainingChars() {
   const [text, setText] = useState("");
   const rem = MAX - text.length;
-
   return (
     <div className="container py-4">
       <div className="card shadow-sm p-4">
