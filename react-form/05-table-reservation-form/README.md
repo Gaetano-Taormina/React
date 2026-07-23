@@ -33,6 +33,7 @@ record table reservation data confirming to the user the entered details (name, 
   * RITORNA struttura JSX:
     * SE `!confirmed`, MOSTRA il form con input testo per nome, numero per ospiti e datetime-local per data
     * ALTRIMENTI, MOSTRA la scheda di riepilogo con tutti i dettagli di prenotazione confermati
+  * NOTA: Il componente è strutturato e salvato all'interno della cartella src/components/
 * FINE COMPONENTE TableReservation
 ```
 
@@ -48,5 +49,6 @@ record table reservation data confirming to the user the entered details (name, 
   * RETURN JSX structure:
     * IF `!confirmed`, RENDER reservation form with text, number and datetime-local inputs
     * ELSE, RENDER summary card highlighting confirmed reservation details
+  * NOTE: The component is structured and saved inside the src/components/ folder
 * END COMPONENT TableReservation
 ```
