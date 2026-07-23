@@ -34,6 +34,7 @@ manage the guest list allowing to mark attendance and organizing the view to sep
     * FORM di inserimento rapido per nuovi invitati
     * SEZIONE Arrivati con pulsante per segnare l'assenza
     * SEZIONE Ancora Attesi con pulsante per segnare la presenza
+  * NOTA: Il componente è strutturato e salvato all'interno della cartella src/components/
 * FINE COMPONENTE GuestList
 ```
 
@@ -50,5 +51,6 @@ manage the guest list allowing to mark attendance and organizing the view to sep
     * QUICK INPUT form to add new guests
     * ARRIVED section with action button to mark as absent
     * EXPECTED section with action button to mark as arrived
+  * NOTE: The component is structured and saved inside the src/components/ folder
 * END COMPONENT GuestList
 ```
