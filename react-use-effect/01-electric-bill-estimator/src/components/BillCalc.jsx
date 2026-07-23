@@ -1,24 +1,19 @@
 import { useState, useEffect } from 'react';
-
 export default function BillCalc() {
   const [costPerKwh, setCostPerKwh] = useState(0.28);
   const [dailyKwh, setDailyKwh] = useState(12.5);
   const [warningThreshold, setWarningThreshold] = useState(90);
-
   const [monthlyCost, setMonthlyCost] = useState(0);
   const [annualCost, setAnnualCost] = useState(0);
   const [isOverThreshold, setIsOverThreshold] = useState(false);
-
   useEffect(() => {
     const costPerDay = Number(dailyKwh) * Number(costPerKwh);
     const calculatedMonthly = costPerDay * 30;
     const calculatedAnnual = costPerDay * 365;
-
     setMonthlyCost(calculatedMonthly);
     setAnnualCost(calculatedAnnual);
     setIsOverThreshold(calculatedMonthly > Number(warningThreshold));
   }, [costPerKwh, dailyKwh, warningThreshold]);
-
   return (
     <div className="container py-4">
       <div className="card shadow-sm p-4">
@@ -26,7 +21,6 @@ export default function BillCalc() {
         <p className="text-muted small mb-4">
           Sincronizzazione costi in tempo reale tramite <code>useEffect</code>.
         </p>
-
         <form className="text-start mb-4">
           <div className="row g-3">
             <div className="col-md-6">
@@ -67,9 +61,7 @@ export default function BillCalc() {
             </div>
           </div>
         </form>
-
         <hr />
-
         <div className="text-start mt-3">
           <h5 className="fw-bold mb-3">Riepilogo Costi Stimati</h5>
           <div className="row g-3">
@@ -90,7 +82,6 @@ export default function BillCalc() {
               </div>
             </div>
           </div>
-
           {isOverThreshold && (
             <div className="alert alert-danger mt-3 mb-0 d-flex align-items-center" role="alert">
               <div>
