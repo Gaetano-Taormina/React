@@ -34,6 +34,7 @@ collect user feedback via a numerical rating (radio button) and a text comment, 
   * RITORNA struttura JSX:
     * SE `!submitted`, MOSTRA il form con radio button da 1 a 5 stelle e textarea
     * ALTRIMENTI, MOSTRA la scheda di riepilogo con la risposta personalizzata al feedback
+  * NOTA: Il componente è strutturato e salvato all'interno della cartella src/components/
 * FINE COMPONENTE FeedbackForm
 ```
 
@@ -50,5 +51,6 @@ collect user feedback via a numerical rating (radio button) and a text comment, 
   * RETURN JSX structure:
     * IF `!submitted`, RENDER form with 1-to-5 star radio buttons and textarea
     * ELSE, RENDER summary box with personalized response string
+  * NOTE: The component is structured and saved inside the src/components/ folder
 * END COMPONENT FeedbackForm
 ```
