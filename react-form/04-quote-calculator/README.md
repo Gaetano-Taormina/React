@@ -33,6 +33,7 @@ calculate the quote by multiplying hours and hourly rate, automatically adding a
   * RITORNA struttura JSX:
     * FORM con due campi di input di tipo numerico (ore e tariffa)
     * RIEPILOGO che mostra in tempo reale importo base, eventuale extra evidenziato e totale preventivo
+  * NOTA: Il componente è strutturato e salvato all'interno della cartella src/components/
 * FINE COMPONENTE QuoteCalc
 ```
 
@@ -48,5 +49,6 @@ calculate the quote by multiplying hours and hourly rate, automatically adding a
   * RETURN JSX structure:
     * FORM with two numeric inputs (hours and rate)
     * SUMMARY card displaying real-time base amount, highlighted extra fee if applicable, and final total
+  * NOTE: The component is structured and saved inside the src/components/ folder
 * END COMPONENT QuoteCalc
 ```
