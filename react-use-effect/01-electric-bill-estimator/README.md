@@ -27,6 +27,7 @@ create a form to estimate the electric bill by asking the user the cost per kWh 
     * FORM con input per `costPerKwh`, `dailyKwh` e `warningThreshold`
     * RIEPILOGO con importo mensile (evidenziato in rosso se `isOverThreshold` è true) e importo annuale
     * AVVISO di allerta in rosso mostrato condizionalmente se la soglia viene superata
+  * NOTA: Il componente è strutturato e salvato all'interno della cartella src/components/
 * FINE COMPONENTE BillCalc
 ```
 
@@ -47,5 +48,6 @@ create a form to estimate the electric bill by asking the user the cost per kWh 
     * FORM with inputs for `costPerKwh`, `dailyKwh`, and `warningThreshold`
     * SUMMARY card displaying monthly cost (highlighted in red if `isOverThreshold` is true) and annual cost
     * ALERT box displayed conditionally if threshold is exceeded
+  * NOTE: The component is structured and saved inside the src/components/ folder
 * END COMPONENT BillCalc
 ```
