@@ -1,10 +1,8 @@
 import { useState } from 'react';
-
 export default function FeedbackForm() {
   const [rating, setRating] = useState("5");
   const [comment, setComment] = useState("");
   const [submitted, setSubmitted] = useState(null);
-
   const handleSubmit = (e) => {
     e.preventDefault();
     const numRating = parseInt(rating, 10);
@@ -14,7 +12,6 @@ export default function FeedbackForm() {
     else reply = "Ci dispiace per l'esperienza negativa, ti contatteremo per risolvere!";
     setSubmitted({ rating: numRating, comment, reply });
   };
-
   return (
     <div className="container py-4">
       <div className="card shadow-sm p-4">
