@@ -1,16 +1,12 @@
 import { useState } from 'react';
-
 const THRESHOLD_HOURS = 40;
 const EXTRA_FEE = 150;
-
 export default function QuoteCalc() {
   const [hours, setHours] = useState(20);
   const [rate, setRate] = useState(35);
-
   const baseTotal = hours * rate;
   const isOverThreshold = hours > THRESHOLD_HOURS;
   const finalTotal = baseTotal + (isOverThreshold ? EXTRA_FEE : 0);
-
   return (
     <div className="container py-4">
       <div className="card shadow-sm p-4">
