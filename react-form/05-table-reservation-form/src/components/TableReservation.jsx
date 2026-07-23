@@ -1,16 +1,13 @@
 import { useState } from 'react';
-
 export default function TableReservation() {
   const [formData, setFormData] = useState({ name: "", guests: 2, date: "" });
   const [confirmed, setConfirmed] = useState(null);
-
   const handleSubmit = (e) => {
     e.preventDefault();
     if (formData.name.trim() && formData.date) {
       setConfirmed(formData);
     }
   };
-
   return (
     <div className="container py-4">
       <div className="card shadow-sm p-4">
