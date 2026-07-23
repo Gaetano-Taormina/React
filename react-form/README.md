@@ -14,20 +14,6 @@ Comprehensive collection of 7 exercises covering advanced **Form handling** in R
 
 ---
 
-## Elenco Esercizi / Exercises Overview
-
-Ogni cartella rappresenta un progetto React + Vite indipendente e configurato, corredato da un proprio `README.md` con traccia in italiano/inglese e pseudocodice indentato (Reasoning). / Each folder represents a standalone, configured React + Vite project, complete with its own `README.md` featuring Italian/English specifications and indented pseudocode (Reasoning).
-
-| # | Cartella / Folder | Funzionalità / Feature | Concetti Chiave / Key Concepts |
-| :---: | :--- | :--- | :--- |
-| **1** | [`01-newsletter-subscription`](./01-newsletter-subscription) | Iscrizione Newsletter / Newsletter Subscription | Form di iscrizione con rendering condizionale dopo l'invio |
-| **2** | [`02-promo-code-validator`](./02-promo-code-validator) | Validatore Codice Promo / Promo Code Validator | Controllo di codici sconto (`SCONTO10`, `PROMO20`) in oggetto costante |
-| **3** | [`03-feedback-rating-form`](./03-feedback-rating-form) | Form Recensioni & Voto / Feedback Rating Form | Radio button da 1 a 5 stelle e risposta dinamica personalizzata |
-| **4** | [`04-quote-calculator`](./04-quote-calculator) | Calcolo Preventivo / Quote Calculator | Moltiplicazione ore × tariffa e aggiunta automatica di sovrapprezzo per soglia >40h |
-| **5** | [`05-table-reservation-form`](./05-table-reservation-form) | Prenotazione Tavolo / Table Reservation Form | Input multipli (`text`, `number`, `datetime-local`) con riepilogo dati di conferma |
-| **6** | [`06-guest-list-manager`](./06-guest-list-manager) | Lista Invitati / Guest List Manager | Suddivisione lista in "Arrivati" e "Attesi" con toggle della proprietà booleana `present` |
-| **7** | [`07-phone-book`](./07-phone-book) | Rubrica Telefonica / Phone Book | Aggiunta di nuovi contatti (`id`, `name`, `phone`) e cancellazione mirata con `.filter()` |
-
 ---
 
 ## Come eseguire i progetti / How to Run Locally
@@ -47,3 +33,31 @@ To run or lint any exercise locally:
 2. Install dependencies with `pnpm install` (or `npm install`)
 3. Start the development server with `pnpm dev` (or `npm run dev`)
 4. Run linter checks with `pnpm oxlint`
+
+## Elenco Esercizi (Italiano)
+
+Ogni cartella rappresenta un progetto React + Vite indipendente e configurato, corredato da un proprio `README.md` con traccia in italiano/inglese e pseudocodice indentato (Reasoning).
+
+| # | Cartella | Funzionalità | Concetti Chiave |
+| :---: | :--- | :--- | :--- |
+| **1** | [`01-newsletter-subscription`](./01-newsletter-subscription) | Iscrizione Newsletter | Form di iscrizione con rendering condizionale dopo l'invio |
+| **2** | [`02-promo-code-validator`](./02-promo-code-validator) | Validatore Codice Promo | Controllo di codici sconto (`SCONTO10`, `PROMO20`) in oggetto costante |
+| **3** | [`03-feedback-rating-form`](./03-feedback-rating-form) | Form Recensioni & Voto | Radio button da 1 a 5 stelle e risposta dinamica personalizzata |
+| **4** | [`04-quote-calculator`](./04-quote-calculator) | Calcolo Preventivo | Moltiplicazione ore × tariffa e aggiunta automatica di sovrapprezzo per soglia >40h |
+| **5** | [`05-table-reservation-form`](./05-table-reservation-form) | Prenotazione Tavolo | Input multipli (`text`, `number`, `datetime-local`) con riepilogo dati di conferma |
+| **6** | [`06-guest-list-manager`](./06-guest-list-manager) | Lista Invitati | Suddivisione lista in "Arrivati" e "Attesi" con toggle della proprietà booleana `present` |
+| **7** | [`07-phone-book`](./07-phone-book) | Rubrica Telefonica | Aggiunta di nuovi contatti (`id`, `name`, `phone`) e cancellazione mirata con `.filter()` |
+
+## Exercises Overview (English)
+
+Each folder represents a standalone, configured React + Vite project, complete with its own `README.md` featuring Italian/English specifications and indented pseudocode (Reasoning).
+
+| # | Folder | Feature | Key Concepts |
+| :---: | :--- | :--- | :--- |
+| **1** | [`01-newsletter-subscription`](./01-newsletter-subscription) | Newsletter Subscription | Form di iscrizione con rendering condizionale dopo l'invio |
+| **2** | [`02-promo-code-validator`](./02-promo-code-validator) | Promo Code Validator | Controllo di codici sconto (`SCONTO10`, `PROMO20`) in oggetto costante |
+| **3** | [`03-feedback-rating-form`](./03-feedback-rating-form) | Feedback Rating Form | Radio button da 1 a 5 stelle e risposta dinamica personalizzata |
+| **4** | [`04-quote-calculator`](./04-quote-calculator) | Quote Calculator | Moltiplicazione ore × tariffa e aggiunta automatica di sovrapprezzo per soglia >40h |
+| **5** | [`05-table-reservation-form`](./05-table-reservation-form) | Table Reservation Form | Input multipli (`text`, `number`, `datetime-local`) con riepilogo dati di conferma |
+| **6** | [`06-guest-list-manager`](./06-guest-list-manager) | Guest List Manager | Suddivisione lista in "Arrivati" e "Attesi" con toggle della proprietà booleana `present` |
+| **7** | [`07-phone-book`](./07-phone-book) | Phone Book | Aggiunta di nuovi contatti (`id`, `name`, `phone`) e cancellazione mirata con `.filter()` |
