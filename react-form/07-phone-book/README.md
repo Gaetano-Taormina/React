@@ -35,6 +35,7 @@ create a phone book allowing the insertion of new contacts and their deletion
   * RITORNA struttura JSX:
     * FORM di inserimento con campi Nome e Numero di Telefono
     * LISTA di contatti salvati, ciascuno con bottone Elimina
+  * NOTA: Il componente è strutturato e salvato all'interno della cartella src/components/
 * FINE COMPONENTE PhoneBook
 ```
 
@@ -52,5 +53,6 @@ create a phone book allowing the insertion of new contacts and their deletion
   * RETURN JSX structure:
     * ADD CONTACT form with Name and Phone input fields
     * LIST of stored contacts, each accompanied by a Delete button
+  * NOTE: The component is structured and saved inside the src/components/ folder
 * END COMPONENT PhoneBook
 ```
