@@ -1,5 +1,4 @@
 import { useState } from 'react';
-
 export default function PhoneBook() {
   const [contacts, setContacts] = useState([
     { id: 1, name: "Dott. Bianchi", phone: "333 1234567" },
@@ -7,7 +6,6 @@ export default function PhoneBook() {
   ]);
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
-
   const handleAdd = (e) => {
     e.preventDefault();
     if (!name.trim() || !phone.trim()) return;
@@ -15,11 +13,9 @@ export default function PhoneBook() {
     setName("");
     setPhone("");
   };
-
   const handleDelete = (id) => {
     setContacts(contacts.filter(c => c.id !== id));
   };
-
   return (
     <div className="container py-4">
       <div className="card shadow-sm p-4">
@@ -35,7 +31,6 @@ export default function PhoneBook() {
           </div>
           <button type="submit" className="btn btn-primary w-100">Salva Contatto</button>
         </form>
-
         <h6 className="text-secondary fw-bold mb-2">Contatti Salvati ({contacts.length}):</h6>
         <ul className="list-group">
           {contacts.map(c => (
