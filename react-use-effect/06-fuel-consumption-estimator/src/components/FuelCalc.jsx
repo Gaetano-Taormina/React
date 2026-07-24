@@ -1,22 +1,17 @@
 import { useState, useEffect } from 'react';
-
 export default function FuelCalc() {
   const [distanceKm, setDistanceKm] = useState(450);
   const [kmPerLiter, setKmPerLiter] = useState(18.5);
   const [fuelPrice, setFuelPrice] = useState(1.85);
-
   const [litersNeeded, setLitersNeeded] = useState(0);
   const [totalCost, setTotalCost] = useState(0);
-
   useEffect(() => {
     const km = Number(distanceKm) || 0;
     const efficiency = Number(kmPerLiter) || 0;
     const price = Number(fuelPrice) || 0;
-
     if (efficiency > 0 && km > 0) {
       const liters = km / efficiency;
       const cost = liters * price;
-
       setLitersNeeded(liters);
       setTotalCost(cost);
     } else {
@@ -24,7 +19,6 @@ export default function FuelCalc() {
       setTotalCost(0);
     }
   }, [distanceKm, kmPerLiter, fuelPrice]);
-
   return (
     <div className="container py-4">
       <div className="card shadow-sm p-4">
@@ -32,7 +26,6 @@ export default function FuelCalc() {
         <p className="text-muted small mb-4">
           Calcolo litri e spesa di viaggio reattivo con <code>useEffect</code>.
         </p>
-
         <form className="text-start mb-4">
           <div className="row g-3">
             <div className="col-md-4">
@@ -73,9 +66,7 @@ export default function FuelCalc() {
             </div>
           </div>
         </form>
-
         <hr />
-
         <div className="text-start mt-3">
           <h5 className="fw-bold mb-3">Stima Fabbisogno e Costi</h5>
           <div className="row g-3">
