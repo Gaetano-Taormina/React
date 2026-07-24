@@ -24,6 +24,7 @@ create a travel configurator asking for number of rooms, number of nights, and t
   * RITORNA struttura JSX:
     * FORM con input per camere e notti e tendina `select` per il tipo di alloggio
     * RIEPILOGO DETTAGLIATO con lista parametri selezionati e box evidenziato per il preventivo totale
+  * NOTA: Il componente è strutturato e salvato all'interno della cartella src/components/
 * FINE COMPONENTE TripConfig
 ```
 
@@ -41,5 +42,6 @@ create a travel configurator asking for number of rooms, number of nights, and t
   * RETURN JSX structure:
     * FORM with inputs for rooms and nights and `select` dropdown for accommodation type
     * DETAILED SUMMARY card displaying selected parameters and highlighted total quote box
+  * NOTE: The component is structured and saved inside the src/components/ folder
 * END COMPONENT TripConfig
 ```
