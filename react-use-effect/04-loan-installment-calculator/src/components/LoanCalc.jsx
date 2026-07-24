@@ -1,32 +1,25 @@
 import { useState, useEffect } from 'react';
-
 export default function LoanCalc() {
   const [totalAmount, setTotalAmount] = useState(15000);
   const [durationYears, setDurationYears] = useState(15);
-
   const [interestRate, setInterestRate] = useState(5.0);
   const [monthlyInstallment, setMonthlyInstallment] = useState(0);
   const [totalRepayment, setTotalRepayment] = useState(0);
-
   useEffect(() => {
     const amount = Number(totalAmount) || 0;
     const years = Number(durationYears) || 0;
-
     let rate = 5.0;
     if (years > 10) {
       const multiplesExceeded = Math.floor((years - 1) / 10);
       rate -= multiplesExceeded * 0.25;
     }
     if (rate < 0.5) rate = 0.5;
-
     setInterestRate(rate);
-
     const months = years * 12;
     if (amount > 0 && months > 0) {
       const monthlyRate = (rate / 100) / 12;
       const installment = (amount * monthlyRate) / (1 - Math.pow(1 + monthlyRate, -months));
       const total = installment * months;
-
       setMonthlyInstallment(installment);
       setTotalRepayment(total);
     } else {
@@ -34,7 +27,6 @@ export default function LoanCalc() {
       setTotalRepayment(0);
     }
   }, [totalAmount, durationYears]);
-
   return (
     <div className="container py-4">
       <div className="card shadow-sm p-4">
@@ -42,7 +34,6 @@ export default function LoanCalc() {
         <p className="text-muted small mb-4">
           Sconto tasso e ricalcolo ammortamento reattivi con <code>useEffect</code>.
         </p>
-
         <form className="text-start mb-4">
           <div className="row g-3">
             <div className="col-md-6">
@@ -72,9 +63,7 @@ export default function LoanCalc() {
             </div>
           </div>
         </form>
-
         <hr />
-
         <div className="text-start mt-3">
           <div className="d-flex justify-content-between align-items-center mb-3 p-3 bg-light rounded border">
             <div>
@@ -89,7 +78,6 @@ export default function LoanCalc() {
             </div>
             <div className="fs-3 fw-bold text-primary">{interestRate.toFixed(2)}%</div>
           </div>
-
           <div className="row g-3">
             <div className="col-md-6">
               <div className="p-3 border rounded bg-light">
