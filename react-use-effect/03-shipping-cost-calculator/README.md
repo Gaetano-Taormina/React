@@ -31,6 +31,7 @@ create a form to calculate shipping cost for a package asking for width, height,
       * Successo (12 €) se standard
       * Avviso (10% importo) se volumetrica
       * Errore ("Troppo ingombrante") se `oversized`
+  * NOTA: Il componente è strutturato e salvato all'interno della cartella src/components/
 * FINE COMPONENTE ShipCalc
 ```
 
@@ -55,5 +56,6 @@ create a form to calculate shipping cost for a package asking for width, height,
       * Success alert (12 €) if standard
       * Warning alert (10% amount) if volumetric
       * Danger alert ("Too bulky") if `oversized`
+  * NOTE: The component is structured and saved inside the src/components/ folder
 * END COMPONENT ShipCalc
 ```
