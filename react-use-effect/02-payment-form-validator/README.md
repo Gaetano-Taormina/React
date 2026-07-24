@@ -29,6 +29,7 @@ create a payment form with inputs for card number (16 digits), expiration (separ
   * RITORNA struttura JSX:
     * SE `!paymentSuccess`: MOSTRA form con input validati e bottone `disabled={!isFormValid}`
     * ALTRIMENTI: MOSTRA messaggio di successo della transazione
+  * NOTA: Il componente è strutturato e salvato all'interno della cartella src/components/
 * FINE COMPONENTE PayForm
 ```
 
@@ -51,5 +52,6 @@ create a payment form with inputs for card number (16 digits), expiration (separ
   * RETURN JSX structure:
     * IF `!paymentSuccess`: SHOW form with validated inputs and button `disabled={!isFormValid}`
     * ELSE: SHOW transaction success alert
+  * NOTE: The component is structured and saved inside the src/components/ folder
 * END COMPONENT PayForm
 ```
