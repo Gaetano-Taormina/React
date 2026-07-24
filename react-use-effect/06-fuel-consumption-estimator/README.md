@@ -26,6 +26,7 @@ create a form to estimate fuel consumption asking for km to travel, average car 
   * RITORNA struttura JSX:
     * FORM con 3 input numerici per km da percorrere, consumo km/l e prezzo carburante
     * CARDS RIASSUNTIVE con il quantitativo totale di litri necessari e il costo complessivo stimato
+  * NOTA: Il componente è strutturato e salvato all'interno della cartella src/components/
 * FINE COMPONENTE FuelCalc
 ```
 
@@ -45,5 +46,6 @@ create a form to estimate fuel consumption asking for km to travel, average car 
   * RETURN JSX structure:
     * FORM with 3 numeric inputs for distance in km, consumption in km/l, and fuel price
     * SUMMARY CARDS showing total liters needed and overall estimated cost
+  * NOTE: The component is structured and saved inside the src/components/ folder
 * END COMPONENT FuelCalc
 ```
