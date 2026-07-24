@@ -1,22 +1,17 @@
 import { useState, useEffect } from 'react';
-
 export default function ShipCalc() {
   const [width, setWidth] = useState(30);
   const [height, setHeight] = useState(40);
   const [depth, setDepth] = useState(25);
-
   const [totalDimensions, setTotalDimensions] = useState(95);
   const [shippingCost, setShippingCost] = useState(12);
   const [shippingType, setShippingType] = useState('standard');
-
   useEffect(() => {
     const w = Number(width) || 0;
     const h = Number(height) || 0;
     const d = Number(depth) || 0;
     const sum = w + h + d;
-
     setTotalDimensions(sum);
-
     if (sum < 150) {
       setShippingCost(12);
       setShippingType('standard');
@@ -28,7 +23,6 @@ export default function ShipCalc() {
       setShippingType('oversized');
     }
   }, [width, height, depth]);
-
   return (
     <div className="container py-4">
       <div className="card shadow-sm p-4">
@@ -36,7 +30,6 @@ export default function ShipCalc() {
         <p className="text-muted small mb-4">
           Calcolo fasce reattivo in tempo reale con <code>useEffect</code>.
         </p>
-
         <form className="text-start mb-4">
           <div className="row g-3">
             <div className="col-md-4">
@@ -74,15 +67,12 @@ export default function ShipCalc() {
             </div>
           </div>
         </form>
-
         <hr />
-
         <div className="text-start mt-3">
           <div className="mb-3">
             <span className="text-muted">Somma Dimensioni (L + A + P): </span>
             <span className="fw-bold fs-5">{totalDimensions} cm</span>
           </div>
-
           {shippingType === 'standard' && (
             <div className="alert alert-success d-flex justify-content-between align-items-center mb-0">
               <div>
@@ -92,7 +82,6 @@ export default function ShipCalc() {
               <div className="fs-3 fw-bold text-success">12.00 €</div>
             </div>
           )}
-
           {shippingType === 'volumetric' && (
             <div className="alert alert-warning d-flex justify-content-between align-items-center mb-0">
               <div>
@@ -102,7 +91,6 @@ export default function ShipCalc() {
               <div className="fs-3 fw-bold text-dark">{shippingCost !== null ? shippingCost.toFixed(2) : '0.00'} €</div>
             </div>
           )}
-
           {shippingType === 'oversized' && (
             <div className="alert alert-danger mb-0">
               <h5 className="alert-heading fw-bold mb-1">Spedizione Non Disponibile</h5>
