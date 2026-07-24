@@ -1,22 +1,18 @@
 import { useState, useEffect } from 'react';
-
 export default function PayForm() {
   const [cardNumber, setCardNumber] = useState("");
   const [expiryMonth, setExpiryMonth] = useState("");
   const [expiryYear, setExpiryYear] = useState("");
   const [cvv, setCvv] = useState("");
-
   const [isCardValid, setIsCardValid] = useState(false);
   const [isExpiryValid, setIsExpiryValid] = useState(false);
   const [isCvvValid, setIsCvvValid] = useState(false);
   const [isFormValid, setIsFormValid] = useState(false);
   const [paymentSuccess, setPaymentSuccess] = useState(false);
-
   useEffect(() => {
     const cleanCard = cardNumber.replace(/\D/g, '');
     const validCard = cleanCard.length === 16;
     setIsCardValid(validCard);
-
     const monthNum = parseInt(expiryMonth, 10);
     const yearNum = parseInt(expiryYear, 10);
     const currentYear = new Date().getFullYear();
@@ -28,21 +24,17 @@ export default function PayForm() {
       yearNum >= currentYear &&
       yearNum <= currentYear + 20;
     setIsExpiryValid(validExpiry);
-
     const cleanCvv = cvv.replace(/\D/g, '');
     const validCvv = cleanCvv.length === 3;
     setIsCvvValid(validCvv);
-
     setIsFormValid(validCard && validExpiry && validCvv);
   }, [cardNumber, expiryMonth, expiryYear, cvv]);
-
   const handlePayment = (e) => {
     e.preventDefault();
     if (isFormValid) {
       setPaymentSuccess(true);
     }
   };
-
   return (
     <div className="container py-4">
       <div className="card shadow-sm p-4">
@@ -50,7 +42,6 @@ export default function PayForm() {
         <p className="text-muted small mb-4">
           Validazione reattiva degli input con <code>useEffect</code>.
         </p>
-
         {!paymentSuccess ? (
           <form onSubmit={handlePayment} className="text-start">
             <div className="mb-3">
@@ -66,7 +57,6 @@ export default function PayForm() {
               />
               <div className="invalid-feedback">Inserisci 16 cifre esatte.</div>
             </div>
-
             <div className="row g-3 mb-3">
               <div className="col-6">
                 <label htmlFor="expiryMonth" className="form-label fw-semibold">Mese Scadenza</label>
@@ -97,7 +87,6 @@ export default function PayForm() {
                 </select>
               </div>
             </div>
-
             <div className="mb-4">
               <label htmlFor="cvv" className="form-label fw-semibold">CVV (3 cifre)</label>
               <input
@@ -111,7 +100,6 @@ export default function PayForm() {
               />
               <div className="invalid-feedback">Inserisci 3 cifre esatte.</div>
             </div>
-
             <button
               type="submit"
               className={`btn w-100 py-2 fw-bold ${isFormValid ? 'btn-success' : 'btn-secondary'}`}
