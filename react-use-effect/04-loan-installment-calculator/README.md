@@ -29,6 +29,7 @@ calculate the monthly installment of a loan asking for total amount and duration
     * FORM con input per importo e durata in anni
     * BOX evidenziato con il tasso effettivo e badge di sconto se applicato
     * CARDS con rata mensile calcolata e totale finale da restituire
+  * NOTA: Il componente è strutturato e salvato all'interno della cartella src/components/
 * FINE COMPONENTE LoanCalc
 ```
 
@@ -51,5 +52,6 @@ calculate the monthly installment of a loan asking for total amount and duration
     * FORM with inputs for amount and duration in years
     * HIGHLIGHTED box displaying effective interest rate and discount badge if applied
     * SUMMARY cards displaying estimated monthly installment and total repayment amount
+  * NOTE: The component is structured and saved inside the src/components/ folder
 * END COMPONENT LoanCalc
 ```
