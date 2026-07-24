@@ -14,19 +14,6 @@ Comprehensive collection of 6 exercises covering **Side Effects** handling and r
 
 ---
 
-## Elenco Esercizi / Exercises Overview
-
-Ogni cartella rappresenta un progetto React + Vite indipendente e configurato, corredato da un proprio `README.md` con traccia in italiano/inglese e pseudocodice indentato (Reasoning). / Each folder represents a standalone, configured React + Vite project, complete with its own `README.md` featuring Italian/English specifications and indented pseudocode (Reasoning).
-
-| # | Cartella / Folder | Funzionalità / Feature | Concetti Chiave / Key Concepts |
-| :---: | :--- | :--- | :--- |
-| **1** | [`01-electric-bill-estimator`](./01-electric-bill-estimator) | Stima Bolletta Elettrica / Electric Bill Estimator | Sincronizzazione costi mensili/annuali ed evidenziazione rossa se si supera la soglia |
-| **2** | [`02-payment-form-validator`](./02-payment-form-validator) | Validatore Form di Pagamento / Payment Form Validator | Controllo di carta (16 cifre), scadenza e CVV (3 cifre) con abilitazione bottone `Paga` |
-| **3** | [`03-shipping-cost-calculator`](./03-shipping-cost-calculator) | Costo di Spedizione / Shipping Cost Calculator | Calcolo fasce (standard <150cm, volumetrica 150-750cm, ingombrante >750cm) |
-| **4** | [`04-loan-installment-calculator`](./04-loan-installment-calculator) | Calcolo Rata Finanziamento / Loan Installment Calculator | Sconto tasso -0.25% per ogni decennio multiplo superato (>10 anni, >20 anni) |
-| **5** | [`05-trip-quote-configurator`](./05-trip-quote-configurator) | Configuratore di Viaggio / Trip Quote Configurator | Calcolo preventivo combinato su camere, notti e tipologia di alloggio (Standard, Premium, VIP) |
-| **6** | [`06-fuel-consumption-estimator`](./06-fuel-consumption-estimator) | Consumo di Carburante / Fuel Consumption Estimator | Calcolo litri necessari e spesa totale in base ai km da percorrere e prezzo benzina |
-
 ---
 
 ## Come eseguire i progetti / How to Run Locally
@@ -46,3 +33,29 @@ To run or lint any exercise locally:
 2. Install dependencies with `pnpm install` (or `npm install`)
 3. Start the development server with `pnpm dev` (or `npm run dev`)
 4. Run linter checks with `pnpm oxlint`
+
+## Elenco Esercizi (Italiano)
+
+Ogni cartella rappresenta un progetto React + Vite indipendente e configurato, corredato da un proprio `README.md` con traccia in italiano/inglese e pseudocodice indentato (Reasoning).
+
+| # | Cartella | Funzionalità | Concetti Chiave |
+| :---: | :--- | :--- | :--- |
+| **1** | [`01-electric-bill-estimator`](./01-electric-bill-estimator) | Stima Bolletta Elettrica | Sincronizzazione costi mensili/annuali ed evidenziazione rossa se si supera la soglia |
+| **2** | [`02-payment-form-validator`](./02-payment-form-validator) | Validatore Form di Pagamento | Controllo di carta (16 cifre), scadenza e CVV (3 cifre) con abilitazione bottone `Paga` |
+| **3** | [`03-shipping-cost-calculator`](./03-shipping-cost-calculator) | Costo di Spedizione | Calcolo fasce (standard <150cm, volumetrica 150-750cm, ingombrante >750cm) |
+| **4** | [`04-loan-installment-calculator`](./04-loan-installment-calculator) | Calcolo Rata Finanziamento | Sconto tasso -0.25% per ogni decennio multiplo superato (>10 anni, >20 anni) |
+| **5** | [`05-trip-quote-configurator`](./05-trip-quote-configurator) | Configuratore di Viaggio | Calcolo preventivo combinato su camere, notti e tipologia di alloggio (Standard, Premium, VIP) |
+| **6** | [`06-fuel-consumption-estimator`](./06-fuel-consumption-estimator) | Consumo di Carburante | Calcolo litri necessari e spesa totale in base ai km da percorrere e prezzo benzina |
+
+## Exercises Overview (English)
+
+Each folder represents a standalone, configured React + Vite project, complete with its own `README.md` featuring Italian/English specifications and indented pseudocode (Reasoning).
+
+| # | Folder | Feature | Key Concepts |
+| :---: | :--- | :--- | :--- |
+| **1** | [`01-electric-bill-estimator`](./01-electric-bill-estimator) | Electric Bill Estimator | Sincronizzazione costi mensili/annuali ed evidenziazione rossa se si supera la soglia |
+| **2** | [`02-payment-form-validator`](./02-payment-form-validator) | Payment Form Validator | Controllo di carta (16 cifre), scadenza e CVV (3 cifre) con abilitazione bottone `Paga` |
+| **3** | [`03-shipping-cost-calculator`](./03-shipping-cost-calculator) | Shipping Cost Calculator | Calcolo fasce (standard <150cm, volumetrica 150-750cm, ingombrante >750cm) |
+| **4** | [`04-loan-installment-calculator`](./04-loan-installment-calculator) | Loan Installment Calculator | Sconto tasso -0.25% per ogni decennio multiplo superato (>10 anni, >20 anni) |
+| **5** | [`05-trip-quote-configurator`](./05-trip-quote-configurator) | Trip Quote Configurator | Calcolo preventivo combinato su camere, notti e tipologia di alloggio (Standard, Premium, VIP) |
+| **6** | [`06-fuel-consumption-estimator`](./06-fuel-consumption-estimator) | Fuel Consumption Estimator | Calcolo litri necessari e spesa totale in base ai km da percorrere e prezzo benzina |
